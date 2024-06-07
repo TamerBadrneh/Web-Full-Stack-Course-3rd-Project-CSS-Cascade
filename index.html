@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Cascade in CSS</title>
+    <link rel="icon" href="./Assets/Icons/CSS-logo.png" />
+    <!-- Font-Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font-Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>The Cascade in CSS</h1>
+      <p>The answer of "why my CSS always Conflicts ?"</p>
+    </header>
+
+    <ol>
+      <!-- Position -->
+      <li class="category">
+        <div class="box">
+          <h2>Position</h2>
+          <p>
+            The first factor CSS Considers is the Position of the overriding the
+            property for a specific element.<br />
+            The rule is very simple! <br />
+            <em
+              >The lower overriding statement it's, The applied one by CSS.</em
+            >
+          </p>
+          <a href="./Public/Position.html">Click here for the example code</a>
+        </div>
+      </li>
+
+      <!-- Specificity -->
+      <li class="category">
+        <div class="box">
+          <h2>Specificity</h2>
+          <p>
+            Id's are the most specific selectors in CSS, followed by attributes,
+            then classes, then elements, and lastly with universal <br />
+            The rule is very simple! <br />
+            <em
+              >if the selector itself is very unique, then you should take into
+              your cosideration that it's the applied.</em
+            >
+          </p>
+          <a href="./Public/Specificty.html">Click here for the example code</a>
+        </div>
+      </li>
+
+      <!-- Adding CSS -->
+      <li class="category">
+        <div class="box">
+          <h2>The Way you've added your CSS !</h2>
+          <p>You can add CSS <b>As you knew</b> in 3 ways:</p>
+
+          <ul>
+            <li>Inline: By using style global attribute.</li>
+            <li>Internal: By using style Tag in HTML.</li>
+            <li>
+              External: By using an external CSS file and link it to your HTML.
+            </li>
+          </ul>
+          <p>
+            The rule is very simple! <br />
+            <em>Inline > Internal > External !</em>
+          </p>
+          <a href="./Public/CSSAdding.html">Click here for the example code</a>
+        </div>
+      </li>
+
+      <li class="category">
+        <div class="box">
+          <h2>Importance of that style !</h2>
+          <p>
+            Simply, you can tell your browser that this style will be applied
+            whatever any other conflict style tried to override. <br />
+            The rule is very simple! <br />
+            <em
+              >!important CSS notation will applied forever, whatever the
+              environment of conflict was.</em
+            >
+          </p>
+          <a href="./Public/Important.html">Click here for the example code</a>
+        </div>
+      </li>
+    </ol>
+
+    <footer>
+      <p>Created By: Tamer Badarneh.</p>
+    </footer>
+  </body>
+</html>
